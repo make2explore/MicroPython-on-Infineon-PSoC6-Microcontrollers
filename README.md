@@ -385,5 +385,5 @@ If you find this project useful:
 **Happy Coding with MicroPython on PSoC™ 6!** 🐍⚡
 
 <div align="center">
-  <sub>Built with ❤️ by the Infineon Team and MicroPython Community</sub>
+  <sub>Built with ❤️ by the make2explore Team for MicroPython Community</sub>
 </div>
