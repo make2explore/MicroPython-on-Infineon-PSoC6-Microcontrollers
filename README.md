@@ -40,6 +40,7 @@ This MicroPython port supports the following PSoC™ 6 development boards:
 | **CY8CKIT-062-BLE** | PSoC™ 6 BLE Pioneer Kit | P13_7 |
 | **CY8CKIT-062-WIFI-BT** | PSoC™ 6 Wi-Fi BT Pioneer Kit | P13_7 |
 | **CY8CKIT-062S2-43012** | PSoC™ 62S2 Wi-Fi BT Pioneer Kit | P13_7 |
+| **CY8CKIT-062S2-AI** | PSoC™ 6 AI Evaluation Kit (AI/ML sensors) | P13_7 |
 
 All boards feature:
 - Dual-core ARM Cortex-M4 (150 MHz) and Cortex-M0+ (100 MHz)
@@ -385,5 +386,5 @@ If you find this project useful:
 **Happy Coding with MicroPython on PSoC™ 6!** 🐍⚡
 
 <div align="center">
-  <sub>Built with ❤️ by the make2explore Team for MicroPython Community</sub>
+  <sub>Built with ❤️ by the Infineon Team and MicroPython Community</sub>
 </div>
