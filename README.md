@@ -29,7 +29,7 @@ MicroPython is a lean and efficient implementation of Python 3 designed specific
 - **Rich Ecosystem**: Utilize MicroPython's extensive library support
 - **Educational**: Perfect for learning embedded systems programming
 
-## 🔧 Supported Boards
+## 🔧Supported Boards
 
 This MicroPython port supports the following PSoC™ 6 development boards:
 
@@ -48,7 +48,7 @@ All boards feature:
 - Rich peripheral set (GPIO, ADC, PWM, I2C, SPI, UART, etc.)
 - Ultra-low power modes
 
-## 📦 Prerequisites
+## 📦Prerequisites
 
 ### Hardware Requirements
 - One of the supported PSoC™ 6 development boards
@@ -60,7 +60,7 @@ All boards feature:
 - **pip** package manager (included with Python 3.4+)
 - Terminal or command prompt application
 
-## 🚀 Quick Start
+## 🚀Quick Start
 
 Get up and running in just a few commands:
 
@@ -81,7 +81,7 @@ python mpy-psoc6.py device-setup
 
 That's it! Your PSoC™ 6 board is now running MicroPython.
 
-## 💻 Installation
+## 💻Installation
 
 ### Detailed Installation Steps
 
@@ -116,7 +116,7 @@ That's it! Your PSoC™ 6 board is now running MicroPython.
    - Flash MicroPython to your device
    - Verify the installation
 
-## 🛠️ Development Environments
+## 🛠️Development Environments
 
 Choose from several excellent development environments:
 
@@ -151,7 +151,7 @@ Example with screen:
 screen /dev/ttyACM0 115200
 ```
 
-## 📚 Examples
+## 📚Examples
 
 ### Hello World - LED Blink
 
@@ -241,7 +241,7 @@ if 0x48 in devices:
     print('Data:', data)
 ```
 
-## 📖 Documentation
+## 📖Documentation
 
 ### Official Resources
 - **PSoC™ 6 MicroPython Quick Reference**: [ifx-micropython.readthedocs.io](https://ifx-micropython.readthedocs.io/en/latest/psoc6/quickref.html)
@@ -262,7 +262,7 @@ if 0x48 in devices:
 - Real-time clock (RTC) and timers
 - DMA and interrupts
 
-## 🔍 Troubleshooting
+## 🔍Troubleshooting
 
 ### Board Not Detected
 
@@ -313,7 +313,7 @@ if 0x48 in devices:
 - Some standard Python modules aren't available in MicroPython
 - Check the [MicroPython library index](https://docs.micropython.org/en/latest/library/index.html)
 
-## 🤝 Contributing
+## 🤝Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -333,13 +333,13 @@ cd micropython
 # Follow the build instructions in the repo
 ```
 
-## 📄 License
+## 📄License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 MicroPython itself is licensed under the MIT License.
 
-## 🔗 Resources
+## 🔗Resources
 
 ### Community
 - **MicroPython Forum**: [forum.micropython.org](https://forum.micropython.org/)
@@ -358,7 +358,7 @@ MicroPython itself is licensed under the MIT License.
 
 ---
 
-## 🎯 Getting Help
+## 🎯Getting Help
 
 If you're stuck:
 
@@ -373,7 +373,7 @@ If you're stuck:
 
 ---
 
-## 🌟 Show Your Support
+## 🌟Show Your Support
 
 If you find this project useful:
 - ⭐ Star this repository
