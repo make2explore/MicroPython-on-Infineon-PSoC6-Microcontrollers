@@ -241,6 +241,62 @@ class CY8CKIT_062S2_43012(BoardConfig):
 BOARD_CY8CKIT_062S2_43012 = CY8CKIT_062S2_43012()
 
 # =========================================================================
+# CY8CKIT-062S2-AI - PSoC™ 6 AI Evaluation Kit
+# =========================================================================
+class CY8CKIT_062S2_AI(BoardConfig):
+    """
+    CY8CKIT-062S2-AI Board Configuration
+    Features: AI/ML focused, Wi-Fi, Bluetooth, Multiple sensors
+    Sensors: IMU, Magnetometer, Pressure, Microphone, RADAR
+    """
+    def __init__(self):
+        super().__init__("CY8CKIT-062S2-AI")
+        
+        # LEDs
+        self.LED = 'P13_7'          # User LED (Orange)
+        self.LED_ORANGE = 'P13_7'
+        
+        # Buttons
+        self.BUTTON = 'P0_4'        # User button SW2
+        self.SW2 = 'P0_4'
+        
+        # I2C (for onboard sensors)
+        self.I2C0_SDA = 'P6_1'
+        self.I2C0_SCL = 'P6_0'
+        self.I2C1_SDA = 'P10_0'     # Alternative I2C
+        self.I2C1_SCL = 'P10_1'
+        
+        # SPI
+        self.SPI0_MOSI = 'P12_0'
+        self.SPI0_MISO = 'P12_1'
+        self.SPI0_SCK = 'P12_2'
+        
+        # UART
+        self.UART0_TX = 'P5_1'
+        self.UART0_RX = 'P5_0'
+        
+        # Onboard Sensor Interrupt Pins
+        self.IMU_INT = 'P1_5'       # BMI270 6-axis IMU interrupt
+        self.MAG_INT = 'P1_0'       # BMM350 Magnetometer interrupt
+        self.PRESSURE_INT = 'P1_4'  # DPS368 Pressure sensor interrupt
+        
+        # Microphone
+        self.MIC_PDM_DATA = 'P10_5' # PDM microphone data
+        self.MIC_PDM_CLK = 'P10_4'  # PDM microphone clock
+        
+        # microSD Card Interface
+        self.SD_CMD = 'P12_4'       # SD card command
+        self.SD_CLK = 'P12_5'       # SD card clock
+        self.SD_DAT0 = 'P13_0'      # SD card data 0
+        self.SD_DAT1 = 'P13_1'      # SD card data 1
+        self.SD_DAT2 = 'P13_2'      # SD card data 2
+        self.SD_DAT3 = 'P13_3'      # SD card data 3
+        self.SD_DETECT = 'P13_6'    # SD card detect
+
+# Create instance
+BOARD_CY8CKIT_062S2_AI = CY8CKIT_062S2_AI()
+
+# =========================================================================
 # Helper Functions
 # =========================================================================
 
@@ -251,7 +307,8 @@ def list_boards():
         BOARD_CY8CPROTO_063_BLE,
         BOARD_CY8CKIT_062_BLE,
         BOARD_CY8CKIT_062_WIFI_BT,
-        BOARD_CY8CKIT_062S2_43012
+        BOARD_CY8CKIT_062S2_43012,
+        BOARD_CY8CKIT_062S2_AI
     ]
     
     print("Available PSoC™ 6 Board Configurations:")
