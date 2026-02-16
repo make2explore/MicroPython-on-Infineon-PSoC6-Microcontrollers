@@ -17,7 +17,7 @@ Welcome to the comprehensive guide for running MicroPython on Infineon PSoC™ 6
 - [License](#license)
 - [Resources](#resources)
 
-## 🌟 Overview
+## 🌟Overview
 
 MicroPython is a lean and efficient implementation of Python 3 designed specifically for microcontrollers and embedded systems. This port brings the power and simplicity of Python to Infineon's PSoC™ 6 family of ultra-low-power, high-performance microcontrollers.
 
